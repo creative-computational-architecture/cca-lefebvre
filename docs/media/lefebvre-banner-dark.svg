@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 250" role="img" aria-labelledby="title desc">
+<title id="title">CCA Lefebvre</title><desc id="desc">Metric point clouds. Architectural survey. Source to drawing.</desc>
+<rect width="1600" height="250" fill="#1a1a1a"/>
+<path d="M0 249.5H1600" stroke="#f5f5f5"/>
+<g transform="translate(44 38) scale(.21)" fill="none" stroke="#f5f5f5" stroke-width="10" stroke-linejoin="miter"><path d="M112 5H50a45 45 0 0 0 0 90h62M237 5h-62a45 45 0 0 0 0 90h62M362 5h-62a45 45 0 0 0 0 90h62V5Z"/></g>
+<path d="M142 39V65" stroke="#C8102E" stroke-width="3"/>
+<text x="164" y="57" fill="#f5f5f5" font-family="Consolas,monospace" font-size="17" letter-spacing="1.5">CREATIVE COMPUTATIONAL ARCHITECTURE</text>
+<text x="39" y="159" fill="#f5f5f5" font-family="Space Grotesk,Arial,sans-serif" font-weight="600" font-size="87" letter-spacing="-4">LEFEBVRE</text>
+<text x="44" y="212" fill="#aaa" font-family="Consolas,monospace" font-size="20">METRIC POINT CLOUDS / ARCHITECTURAL SURVEY / SOURCE TO DRAWING</text>
+<g fill="none" stroke="#f5f5f5" stroke-width="1.5"><path d="m1295 49 105 51v69l-105 50-106-50v-69Z M1189 100l106 52 105-52 M1295 152v67 M1295 49v62 M1242 75l105 51v68 M1347 75l-105 51v68"/><path d="M1189 169h211M1242 195h105" stroke-dasharray="3 5"/></g>
+<path d="m1295 152 54 25" stroke="#C8102E" stroke-width="3"/>
+<g fill="#C8102E"><circle cx="1295" cy="152" r="4"/><circle cx="1349" cy="177" r="3"/></g>
+<text x="1460" y="54" fill="#aaa" font-family="Consolas,monospace" font-size="15">XYZ</text><text x="1460" y="89" fill="#aaa" font-family="Consolas,monospace" font-size="15">1:1</text><text x="1460" y="124" fill="#aaa" font-family="Consolas,monospace" font-size="15">CAD</text>
+</svg>

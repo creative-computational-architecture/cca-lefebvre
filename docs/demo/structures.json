@@ -1,0 +1,46 @@
+{
+  "schema": "cca.survey-structures.v1",
+  "stamp": "SURVEY DRAFT / UNCALIBRATED",
+  "structures": [
+    {
+      "bounding_walls": [
+        "W004",
+        "W005"
+      ],
+      "confidence": "HIGH",
+      "depth_m": 5.2,
+      "eave_z_m": 3.09,
+      "ground_z_m": 0.041,
+      "id": "S01",
+      "n_points": 50583,
+      "notes": "",
+      "ridge_z_m": 3.79,
+      "roof_type": "egimli",
+      "width_m": 3.91,
+      "x_end_m": 4.097,
+      "x_start_m": 0.187,
+      "y_back_m": 5.385,
+      "y_front_m": 0.185
+    },
+    {
+      "bounding_walls": [
+        "W005",
+        "W009"
+      ],
+      "confidence": "HIGH",
+      "depth_m": 5.2,
+      "eave_z_m": 3.09,
+      "ground_z_m": 0.041,
+      "id": "S02",
+      "n_points": 64285,
+      "notes": "",
+      "ridge_z_m": 3.79,
+      "roof_type": "egimli",
+      "width_m": 4.09,
+      "x_end_m": 8.187,
+      "x_start_m": 4.097,
+      "y_back_m": 5.385,
+      "y_front_m": 0.185
+    }
+  ]
+}

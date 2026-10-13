@@ -1,0 +1,17 @@
+{
+  "schema": "cca.points-brand-assets.v1",
+  "registry_release": "3.0.0",
+  "identity": {
+    "acronym": "CCA",
+    "creative_name": "Creative Computational Architecture",
+    "mark": "cca-mono",
+    "organization": "Caglar Celik Architects",
+    "product": "CCA Lefebvre",
+    "skin": "Skin C",
+    "usage": "dark surfaces"
+  },
+  "source_svg_sha256": "f2402d68f9853b2fad9f9494c9da35794e3cee922ee3eb263f935919fae5e2e9",
+  "files": {
+    "cca-mono-dark.svg": "f2402d68f9853b2fad9f9494c9da35794e3cee922ee3eb263f935919fae5e2e9"
+  }
+}

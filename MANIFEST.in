@@ -1,0 +1,6 @@
+include README.md README.tr.md BUILD.md AGENTS.md RELEASE_CHECKS.md requirements-tested.txt
+recursive-include examples *.py
+recursive-include tests *.py
+recursive-include licenses *
+recursive-include docs *.md *.svg *.png *.json *.dxf
+global-exclude *.py[cod]

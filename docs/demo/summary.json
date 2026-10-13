@@ -1,0 +1,302 @@
+{
+  "dxf": {
+    "audit_errors": 0,
+    "entities": 1832,
+    "entity_counts_by_layer": {
+      "CCA_SURVEY_DIM": 9,
+      "CCA_SURVEY_ELEV_FRONT": 6,
+      "CCA_SURVEY_ELEV_LIDAR": 212,
+      "CCA_SURVEY_GRID": 34,
+      "CCA_SURVEY_SECTION": 6,
+      "CCA_SURVEY_SLICE": 1541,
+      "CCA_SURVEY_STRUCT": 4,
+      "CCA_SURVEY_TEXT": 10,
+      "CCA_SURVEY_WALL": 8,
+      "CCA_SURVEY_WALL_LOWCONF": 2
+    },
+    "geometry_entity_count_unchanged": true,
+    "insunits": 5,
+    "metadata_normalized": true,
+    "path": "synthetic-survey.dxf",
+    "reopened_audit_errors": 0,
+    "serialized_header_dates": {
+      "$TDCREATE": 2451545.0,
+      "$TDUCREATE": 2451545.0,
+      "$TDUPDATE": 2451545.0,
+      "$TDUUPDATE": 2451545.0
+    },
+    "sha256": "5b0d9e3379028efc7ed2447896b30b8898ddd8708205294fe8a8ba0d0365b7f3",
+    "unit": "cm"
+  },
+  "generated_output_dir": "survey/synthetic-room/survey/20000101T000000Z",
+  "generator": "examples/synthetic_survey.py",
+  "input": {
+    "cloud": "input/synthetic-room.ply",
+    "point_count": 176180,
+    "project": "input/demo.ccapoints.json",
+    "raw_unchanged": true,
+    "sha256_after": "735bb9e86c8615ed6a56edc66648682908dcbe3e3b2f2bb838590617ff2bb962",
+    "sha256_before": "735bb9e86c8615ed6a56edc66648682908dcbe3e3b2f2bb838590617ff2bb962"
+  },
+  "known_geometry": {
+    "added_noise_xyz_rms_m": 0.00259838,
+    "doorway": {
+      "height_m": 2.1,
+      "y_m": [
+        2.0,
+        3.0
+      ]
+    },
+    "eave_m": 3.0,
+    "gaussian_noise_sigma_m": 0.0015,
+    "generator": "mathematical-two-bay-room-v1",
+    "interior_depth_m": 5.0,
+    "interior_width_m": 8.0,
+    "partition_centre_x_m": 4.0,
+    "point_count": 176180,
+    "primitive_point_counts": {
+      "floor": 28350,
+      "front_inner": 15060,
+      "front_outer": 15060,
+      "left_inner": 10260,
+      "left_outer": 10260,
+      "partition_left": 8935,
+      "partition_right": 8935,
+      "rear_inner": 15960,
+      "rear_outer": 15960,
+      "right_inner": 10260,
+      "right_outer": 10260,
+      "roof_front": 13440,
+      "roof_rear": 13440
+    },
+    "ridge_m": 3.8,
+    "sampling_spacing_m": 0.04,
+    "seed": 2026,
+    "source_yaw_deg": 17.0,
+    "synthetic": true,
+    "wall_thickness_m": 0.18,
+    "window": {
+      "x_m": [
+        1.2,
+        2.4
+      ],
+      "z_m": [
+        0.9,
+        2.1
+      ]
+    }
+  },
+  "limits": [
+    "This controlled synthetic test is not a survey accuracy claim.",
+    "The pipeline returns uncalibrated survey drafts and confidence labels.",
+    "Detected features may split, merge or miss sampled geometry.",
+    "Opening locations are generator annotations, not validated opening detections.",
+    "Nominal bay references use partition centrelines; the detector may use a wall face.",
+    "A HIGH support label does not certify measurement accuracy or remove geometric bias."
+  ],
+  "outputs": {
+    "facade_profile": "facade_profile.json",
+    "partitions": "partitions.json",
+    "structures": "structures.json",
+    "walls": "walls.json"
+  },
+  "pipeline": "viewer.survey_service.run_survey_pack -> export.survey_pack.build_survey_pack",
+  "provenance": "Mathematical geometry only; no real scan, customer, site or project input.",
+  "schema": "cca.synthetic-survey-demo.v1",
+  "sheets": [
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/plan.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/elevation.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/boxes.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/sections.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z025_045.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z055_075.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z095_125.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z145_165.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z195_215.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z245_265.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/slice_z295_315.png",
+    "survey/synthetic-room/survey/20000101T000000Z/sheets/slices/roof.png"
+  ],
+  "survey": {
+    "computed_extents_m": {
+      "x": 8.372167,
+      "y": 5.371415,
+      "z": 3.810225
+    },
+    "confidence_counts": {
+      "cross_walls": {
+        "HIGH": 3,
+        "LOW": 0,
+        "MEDIUM": 0
+      },
+      "partitions": {
+        "HIGH": 3,
+        "LOW": 0,
+        "MEDIUM": 0
+      },
+      "structures": {
+        "HIGH": 2,
+        "LOW": 0,
+        "MEDIUM": 0
+      },
+      "walls": {
+        "HIGH": 7,
+        "LOW": 2,
+        "MEDIUM": 1
+      }
+    },
+    "config_overrides": {
+      "front_side": "keep",
+      "source_axis": "CAD_Z_up",
+      "wall_min_length_m": 0.5
+    },
+    "cross_walls": 3,
+    "demo_tolerance_m": 0.04,
+    "derived_structure_checks": [
+      {
+        "computed": {
+          "depth_m": 5.2,
+          "eave_z_m": 3.09,
+          "ridge_z_m": 3.79,
+          "width_m": 3.91
+        },
+        "confidence": "HIGH",
+        "difference_from_nominal_m": {
+          "depth_m": 0.2,
+          "eave_z_m": 0.09,
+          "ridge_z_m": -0.01,
+          "width_m": -0.09
+        },
+        "id": "S01",
+        "nominal_centreline_reference": {
+          "depth_m": 5.0,
+          "eave_z_m": 3.0,
+          "ridge_z_m": 3.8,
+          "width_m": 4.0
+        }
+      },
+      {
+        "computed": {
+          "depth_m": 5.2,
+          "eave_z_m": 3.09,
+          "ridge_z_m": 3.79,
+          "width_m": 4.09
+        },
+        "confidence": "HIGH",
+        "difference_from_nominal_m": {
+          "depth_m": 0.2,
+          "eave_z_m": 0.09,
+          "ridge_z_m": -0.01,
+          "width_m": 0.09
+        },
+        "id": "S02",
+        "nominal_centreline_reference": {
+          "depth_m": 5.0,
+          "eave_z_m": 3.0,
+          "ridge_z_m": 3.8,
+          "width_m": 4.0
+        }
+      }
+    ],
+    "effective_horizontal_rotation_deg": -17.0,
+    "expected_extents_m": {
+      "x": 8.36,
+      "y": 5.36,
+      "z": 3.8
+    },
+    "extent_error_m": {
+      "x": 0.012167,
+      "y": 0.011415,
+      "z": 0.010225
+    },
+    "extents_within_demo_tolerance": true,
+    "frame": {
+      "determinant": 1.0,
+      "extents_m": {
+        "x": [
+          0.0,
+          8.37216695713336
+        ],
+        "y": [
+          0.0,
+          5.371415184628343
+        ],
+        "z": [
+          -0.005777969610431739,
+          3.8044472211425577
+        ]
+      },
+      "facade_y_m": 5.3700000000000045,
+      "flipped_180": false,
+      "ground_centroid_zup": [
+        3.101849582904856,
+        3.5633871017912266,
+        -0.0003296426112548199
+      ],
+      "ground_sigma_m": 0.0012372155274636067,
+      "ground_tilt_deg": 7.244509618354405e-06,
+      "long_axis_rotated_90": true,
+      "point_count": 176180,
+      "scale": 1.0,
+      "scanner_side_counts": {
+        "ground_points_large_y": 0,
+        "ground_points_small_y": 30066
+      },
+      "schema": "cca.survey-frame.v1",
+      "transform_survey_from_zup": [
+        [
+          0.9563047559630286,
+          0.2923717047227356,
+          1.1738998626401883e-07,
+          0.1865559548832021
+        ],
+        [
+          -0.29237170472274243,
+          0.9563047559630327,
+          4.4178884043672096e-08,
+          0.18545474586898525
+        ],
+        [
+          -9.934394652611982e-08,
+          -7.656998732549328e-08,
+          0.999999999999992,
+          0.00033022360973913346
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_deg": 72.9999999999998
+    },
+    "ground_sigma_mm": 1.23722,
+    "ground_tilt_deg": 7e-06,
+    "hand_measure_items": [
+      {
+        "axis": "y",
+        "end_m": 2.203,
+        "id": "W006",
+        "kind": "wall",
+        "pos_m": 4.097,
+        "reason": "single slice band support",
+        "start_m": 0.003
+      },
+      {
+        "axis": "y",
+        "end_m": 5.403,
+        "id": "W010",
+        "kind": "wall",
+        "pos_m": 8.366,
+        "reason": "single slice band support",
+        "start_m": 0.003
+      }
+    ],
+    "partitions": 3,
+    "structures": 2,
+    "walls": 10,
+    "yaw_correction_deg": 73.0
+  },
+  "synthetic": true
+}

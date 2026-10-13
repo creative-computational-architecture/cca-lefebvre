@@ -1,0 +1,182 @@
+{
+  "reference_copies": [
+    {
+      "filename": "GPL-3.0.txt",
+      "source": "https://raw.githubusercontent.com/qtproject/pyside-pyside-setup/dev/LICENSES/GPL-3.0-only.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "LGPL-3.0.txt",
+      "source": "https://raw.githubusercontent.com/qtproject/pyside-pyside-setup/dev/LICENSES/LGPL-3.0-only.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "numpy-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/numpy/numpy/main/LICENSE.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "1be1df33863f97a7bc1c4d67980bd6c69c9a6fef0a5ee76e6ad6cb91e56e8491",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "scipy-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/scipy/scipy/main/LICENSE.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "221e59f5e910fd7f94e44f0dac77436a11338c285c6346232e4a850a50da0e94",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "pandas-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/pandas-dev/pandas/main/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "9850f6b5bdef7346503065807b878deb8058b976c5c329f4c4d23bf4796ce9ae",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "arrow-NOTICE.txt",
+      "source": "https://raw.githubusercontent.com/apache/arrow/main/NOTICE.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "afd895d61a00101f6d5a41cf518c83865d815e8109e956f512a0ce4ea9738c06",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "opencv-wrapper-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/opencv/opencv-python/4.x/LICENSE.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "09d719058e782ac7bc71ba21c944e1136cde2bb957c0e888121f0218d6b5f02c",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "opencv-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/opencv/opencv/4.x/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "imageio-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/imageio/imageio/master/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "c453cf1368bb9e009e4d7e5334fc78511e665316a612ef54ee4fe1245678fe2c",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "openexr-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/AcademySoftwareFoundation/openexr/main/LICENSE.md",
+      "retrieved_on": "2026-10-13",
+      "sha256": "84853c91d4c2e0310741d4773469d98bb93e61029608e0ba0882a3fffdf330bd",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "open3d-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/isl-org/Open3D/main/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "e2105d24aa1dae0fb5450f5b974dbf369b44d3c91a100d1b134922edb0647175",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "ezdxf-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/mozman/ezdxf/master/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "db97ca426fc0d2b8124145de0f36181db73e6e713ce642d42fed2efc442edf19",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "pyvista-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/pyvista/pyvista/main/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "ef781b94ef972e69777b03022520150b77ae9bd1c6e0225c452a14e82251e9e5",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "pyvistaqt-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/pyvista/pyvistaqt/main/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "ef781b94ef972e69777b03022520150b77ae9bd1c6e0225c452a14e82251e9e5",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "vtk-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/Kitware/VTK/master/Copyright.txt",
+      "retrieved_on": "2026-10-13",
+      "sha256": "11232448be82e0ea2c2c66219c2e36389f42249894070ee10c549ff182fc08b6",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "pye57-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/davidcaron/pye57/master/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "7e4eba8170c2d4e56bba2c744c9ead1861fabda3ff54ecc13c44d9df1c6732c6",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "libe57format-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/asmaloney/libE57Format/master/LICENSE.md",
+      "retrieved_on": "2026-10-13",
+      "sha256": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "psutil-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/giampaolo/psutil/master/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "b89c063b3786e28e0c0a38f1931db61fed35e69dd2a2966fbecffee0f46c8d10",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "pillow-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/python-pillow/Pillow/main/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "15181e7363dca9aed78b79bebebc7fde7f1814b8bd311ea3b87ae8ccadfc185b",
+      "ascii": false,
+      "included": false,
+      "reason": "External reference retained; original text contains non-ASCII characters and is not modified."
+    },
+    {
+      "filename": "matplotlib-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/matplotlib/matplotlib/main/LICENSE/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "5a1a81ea301728c8bba2933da832c0cd62229daf20893a024ab3d53244468dbc",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "reportlab-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/MrBitBucket/reportlab-mirror/master/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "ef831761646313921375fc2cb888e8eeaf7da213d0b92852c10c42f3a0b4d138",
+      "ascii": true,
+      "included": true
+    },
+    {
+      "filename": "mcp-LICENSE.txt",
+      "source": "https://raw.githubusercontent.com/modelcontextprotocol/python-sdk/main/LICENSE",
+      "retrieved_on": "2026-10-13",
+      "sha256": "5e13dbbc1d120fc2a03cecde7c91424ae2d7de11b63d58ded2f4431e261ee50d",
+      "ascii": true,
+      "included": true
+    }
+  ],
+  "note": "Reference texts retrieved from upstream branches, not an installed-wheel inventory. Dependencies are separately installed; no wheels or DLLs are distributed."
+}

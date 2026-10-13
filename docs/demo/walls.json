@@ -1,0 +1,343 @@
+{
+  "cross_walls": [
+    {
+      "confidence": "HIGH",
+      "depth_m": 5.2,
+      "id": "W004",
+      "n_points": 3298,
+      "x_m": 0.187,
+      "y_end_m": 5.385,
+      "y_start_m": -0.015,
+      "z_max_m": 3.47
+    },
+    {
+      "confidence": "HIGH",
+      "depth_m": 5.2,
+      "id": "W005",
+      "n_points": 2306,
+      "x_m": 4.097,
+      "y_end_m": 5.385,
+      "y_start_m": -0.015,
+      "z_max_m": 3.55
+    },
+    {
+      "confidence": "HIGH",
+      "depth_m": 5.2,
+      "id": "W009",
+      "n_points": 3285,
+      "x_m": 8.187,
+      "y_end_m": 5.385,
+      "y_start_m": -0.015,
+      "z_max_m": 3.47
+    }
+  ],
+  "facade": {
+    "confidence": "HIGH",
+    "n_points": 4637,
+    "piece_ids": [
+      "W001"
+    ],
+    "x_end_m": 8.405,
+    "x_start_m": 0.002,
+    "y_m": 0.185
+  },
+  "front_view_min_y_m": -4.815,
+  "schema": "cca.survey-walls.v1",
+  "stamp": "SURVEY DRAFT / UNCALIBRATED",
+  "walls": [
+    {
+      "axis": "x",
+      "confidence": "HIGH",
+      "end_m": 8.405,
+      "id": "W001",
+      "length_m": 8.403,
+      "n_points": 4637,
+      "pair_of": null,
+      "pos_m": 0.185,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0001,
+      "start_m": 0.002,
+      "thickness_m": null,
+      "z_max_m": 3.01,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "x",
+      "confidence": "HIGH",
+      "end_m": 8.404,
+      "id": "W002",
+      "length_m": 8.401,
+      "n_points": 5106,
+      "pair_of": "W003",
+      "pos_m": 5.185,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0,
+      "start_m": 0.003,
+      "thickness_m": 0.179,
+      "z_max_m": 3.01,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "x",
+      "confidence": "MEDIUM",
+      "end_m": 8.404,
+      "id": "W003",
+      "length_m": 8.401,
+      "n_points": 2888,
+      "pair_of": "W002",
+      "pos_m": 5.364,
+      "slice_heights": [
+        [
+          0.95,
+          1.25
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0001,
+      "start_m": 0.003,
+      "thickness_m": 0.179,
+      "z_max_m": 3.0,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "HIGH",
+      "end_m": 5.404,
+      "id": "W004",
+      "length_m": 5.402,
+      "n_points": 3298,
+      "pair_of": null,
+      "pos_m": 0.187,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0001,
+      "start_m": 0.002,
+      "thickness_m": null,
+      "z_max_m": 3.47,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "HIGH",
+      "end_m": 5.403,
+      "id": "W005",
+      "length_m": 5.401,
+      "n_points": 2306,
+      "pair_of": "W007",
+      "pos_m": 4.097,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0001,
+      "start_m": 0.002,
+      "thickness_m": 0.179,
+      "z_max_m": 3.55,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "LOW",
+      "end_m": 2.203,
+      "id": "W006",
+      "length_m": 2.2,
+      "n_points": 472,
+      "pair_of": "W008",
+      "pos_m": 4.097,
+      "slice_heights": [
+        [
+          0.95,
+          1.25
+        ]
+      ],
+      "slice_pos_std_m": 0.0,
+      "start_m": 0.003,
+      "thickness_m": 0.179,
+      "z_max_m": 3.38,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "HIGH",
+      "end_m": 5.403,
+      "id": "W007",
+      "length_m": 5.4,
+      "n_points": 1717,
+      "pair_of": "W005",
+      "pos_m": 4.276,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0001,
+      "start_m": 0.002,
+      "thickness_m": 0.179,
+      "z_max_m": 3.54,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "HIGH",
+      "end_m": 2.203,
+      "id": "W008",
+      "length_m": 2.201,
+      "n_points": 1052,
+      "pair_of": "W006",
+      "pos_m": 4.276,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ]
+      ],
+      "slice_pos_std_m": 0.0001,
+      "start_m": 0.002,
+      "thickness_m": 0.179,
+      "z_max_m": 3.39,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "HIGH",
+      "end_m": 5.405,
+      "id": "W009",
+      "length_m": 5.404,
+      "n_points": 3285,
+      "pair_of": "W010",
+      "pos_m": 8.187,
+      "slice_heights": [
+        [
+          0.6,
+          0.8
+        ],
+        [
+          0.95,
+          1.25
+        ],
+        [
+          1.5,
+          1.7
+        ],
+        [
+          2.0,
+          2.2
+        ]
+      ],
+      "slice_pos_std_m": 0.0,
+      "start_m": 0.001,
+      "thickness_m": 0.179,
+      "z_max_m": 3.47,
+      "z_min_m": 0.12
+    },
+    {
+      "axis": "y",
+      "confidence": "LOW",
+      "end_m": 5.403,
+      "id": "W010",
+      "length_m": 5.4,
+      "n_points": 1143,
+      "pair_of": "W009",
+      "pos_m": 8.366,
+      "slice_heights": [
+        [
+          0.95,
+          1.25
+        ]
+      ],
+      "slice_pos_std_m": 0.0,
+      "start_m": 0.003,
+      "thickness_m": 0.179,
+      "z_max_m": 3.47,
+      "z_min_m": 0.12
+    }
+  ]
+}

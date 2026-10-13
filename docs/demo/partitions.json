@@ -1,0 +1,20 @@
+{
+  "confidence": [
+    "HIGH",
+    "HIGH",
+    "HIGH"
+  ],
+  "facade_y_m": 0.185,
+  "schema": "cca.survey-partitions.v1",
+  "spacings_m": [
+    3.91,
+    4.09
+  ],
+  "stamp": "SURVEY DRAFT / UNCALIBRATED",
+  "total_m": 8.0,
+  "x_positions_m": [
+    0.187,
+    4.097,
+    8.187
+  ]
+}

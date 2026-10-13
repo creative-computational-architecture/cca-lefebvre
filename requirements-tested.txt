@@ -1,0 +1,21 @@
+# Direct package versions used for the Windows/Python 3.12 release checks.
+# This is not a transitive hash lock. Optional control bridge included.
+numpy==2.5.2
+scipy==1.18.0
+pandas==3.0.5
+pyarrow==25.0.1
+opencv-contrib-python==5.0.0.93
+imageio==2.37.4
+OpenEXR==3.4.14
+open3d==0.19.0
+ezdxf==1.4.4
+PySide6==6.11.2
+pyvista==0.46.5
+pyvistaqt==0.11.4
+vtk==9.5.2
+pye57==0.4.19
+psutil==7.2.2
+Pillow==12.3.0
+matplotlib==3.11.1
+reportlab==5.0.0
+mcp==2.2.0
